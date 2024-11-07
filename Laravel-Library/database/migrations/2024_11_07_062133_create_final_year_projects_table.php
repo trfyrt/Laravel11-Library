@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('author');
             $table->string('student_id');
             $table->string('department');
-            $table->integer('year');
+            $table->year('year');
             $table->string('abstract', 1000);
             $table->string('status'); // Status skripsi, misalnya "Lulus", "Ditolak", "Revisi"
             $table->string('grade');

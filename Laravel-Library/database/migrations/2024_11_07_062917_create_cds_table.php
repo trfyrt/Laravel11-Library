@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title'); // Judul film
             $table->string('producer'); // Nama produser
             $table->string('genre'); // Genre film, misalnya "Drama", "Aksi", "Komedi"
-            $table->year('release_year'); // Tahun rilis film
+            $table->year('releaseYear'); // Tahun rilis film
             $table->integer('duration'); // Durasi film dalam menit
             $table->string('studio'); // Studio produksi film
             $table->timestamps();
