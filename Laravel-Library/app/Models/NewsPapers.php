@@ -8,7 +8,7 @@ class NewsPapers extends Model
 {
     //
     protected $fillable = [
-        'name',
+        'title',
         'publisher',
         'publicationDate',
         'editor',

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('news_papers', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('title');
             $table->string('publisher');
             $table->date('publicationDate');
             $table->string('editor');

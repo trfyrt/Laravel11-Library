@@ -21,7 +21,7 @@ class BooksSeeder extends Seeder
             'title' => $faker->sentence(3),
             'author' => $faker->name(),
             'publisher'=> $faker->name(),
-            'publicationYear'=> $faker->year(),
+            'year'=> $faker->year(),
         ]);
      }
     }

@@ -23,7 +23,7 @@
                 <td>{{ $data->title }}</td>
                 <td>{{ $data->producer }}</td>
                 <td>{{ $data->genre }}</td>
-                <td>{{ $data->releaseYear }}</td>
+                <td>{{ $data->year }}</td>
                 <td>{{ $data->duration }}</td>
                 <td>{{ $data->studio }}</td>
             </tr>

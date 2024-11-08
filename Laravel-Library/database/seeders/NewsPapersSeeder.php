@@ -18,7 +18,7 @@ class NewsPapersSeeder extends Seeder
 
         for ($i = 1; $i <= 10; $i++){
            NewsPapers::create([
-            'name'=> $faker->sentence(2),
+            'title'=> $faker->sentence(2),
             'publisher'=> $faker->name(),
             'publicationDate'=> $faker->date(),
             'editor'=> $faker->name(),

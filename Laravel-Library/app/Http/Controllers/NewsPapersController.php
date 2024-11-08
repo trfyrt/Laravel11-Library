@@ -9,10 +9,10 @@ class NewsPapersController extends Controller
 {
     public function index($sort = 'asc'){
         if($sort == 'desc'){
-            $datas=DB::select('select * from news_papers order by name desc');
+            $datas=DB::select('select * from news_papers order by title desc');
         }
         else{
-            $datas=DB::select('select * from news_papers order by name asc');
+            $datas=DB::select('select * from news_papers order by title asc');
         }
         return view('newspapers', compact('datas'));
     }

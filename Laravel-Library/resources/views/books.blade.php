@@ -21,7 +21,7 @@
                 <td>{{ $data->title }}</td>
                 <td>{{ $data->author }}</td>
                 <td>{{ $data->publisher }}</td>
-                <td>{{ $data->publicationYear }}</td>
+                <td>{{ $data->year }}</td>
             </tr>
         @endforeach
     </table>

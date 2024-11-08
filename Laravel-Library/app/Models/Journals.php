@@ -13,6 +13,6 @@ class Journals extends Model
         'title',
         'author',
         'publisher',
-        'publicationYear',
+        'year',
     ];
 }

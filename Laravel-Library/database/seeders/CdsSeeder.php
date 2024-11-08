@@ -21,7 +21,7 @@ class CdsSeeder extends Seeder
                'title' => $faker->sentence(3),
                'producer' => $faker->name(),
                'genre'=> $faker->randomElement(['Action', 'Drama', 'Comedy', 'Fantasy', 'Adventure', 'Mystery', 'Horror']), // Genre film, misalnya "Drama", "Aksi", "Komedi"
-               'releaseYear'=> $faker->year(),
+               'year'=> $faker->year(),
                'duration'=> $faker->numberBetween(60, 150), // Durasi film dalam menit
                'studio'=> $faker->word()
            ]);

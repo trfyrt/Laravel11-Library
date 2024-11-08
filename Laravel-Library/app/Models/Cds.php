@@ -11,7 +11,7 @@ class Cds extends Model
         'title', // Judul film
         'producer', // Nama produser
         'genre', // Genre film, misalnya "Drama", "Aksi", "Komedi"
-        'releaseYear', // Tahun rilis film
+        'year', // Tahun rilis film
         'duration', // Durasi film dalam menit
         'studio', // Studio produksi film
     ];
